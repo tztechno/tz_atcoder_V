@@ -9,9 +9,9 @@ abc105_a.v
 import os{get_line}
 
 fn main() {
-	n := get_line().u16()
-	k := get_line().u16()
-  if n%k==0 {
+  input := get_line().split(' ').map(it.u16())
+  n, k := input[0], input[1]
+  if n % k==0 {
     println(0)    
   } else {
     println(1)    
