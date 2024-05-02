@@ -11,10 +11,10 @@ abc186_a.v
 import os{get_line}
 
 fn main() {
-	input := get_line().split(' ').map(it.u16())
-	n,w := input[0], input[1]
+    input := get_line().split(' ').map(it.u16())
+    n,w := input[0], input[1]
     ans := n/w
-	println(ans)       
+    println(ans)       
 }
 ############################################
 [python]
