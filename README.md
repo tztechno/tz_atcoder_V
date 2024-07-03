@@ -15,7 +15,9 @@
 ```
 ---
 ```
-
+    n := os.input('').u16()
+    mut result := 'Christmas'
+    for _ in 0 .. (25-n) {
 ```
 ---
 ```
