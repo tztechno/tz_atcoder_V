@@ -11,7 +11,12 @@
 ```
 ---
 ```
-
+import os{get_line}
+fn main() {
+	x := get_line()
+  mapp := {'A':'T','C':'G','G':'C','T':'A'}
+	println(mapp[x])        
+}
 ```
 ---
 ```
